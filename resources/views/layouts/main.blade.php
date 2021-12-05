@@ -107,13 +107,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="col-md-3 header-right footer-bottom">
                 <ul>
                     <li>
-                        <a href="#" class="use1" data-toggle="modal"
-                            data-target="#myModal4"><span>Login</span></a>
+                        <a href="/home" class="use1" data-toggle="modal" style="    margin-left: -8rem;"><span
+                                style="left: 120px">Login</span></a>
                     </li>
-                    <li><a class="fb" href="#"></a></li>
+                    <li>
+                        <div class="cart box_1" style="height: 3.2rem;
+                        width: 4rem;
+                        position: absolute;
+                        top: 0.7rem;
+                        left: 2rem;">
+                            <a href="/checkout" style="    height: 100%;
+                            width: 100%;">
+                                <h3 style="
+                                margin-left: 0.5rem;">
+                                    <div class="total">
+                                        <i class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></i>
+                                    </div>
+
+                                </h3>
+                            </a>
+                            <p>
+                                <a href="javascript:;" class="simpleCart_empty"></a>
+                            </p>
+                        </div>
+                    </li>
+                    {{-- <li><a class="fb" href="#"></a></li>
                     <li><a class="twi" href="#"></a></li>
                     <li><a class="insta" href="#"></a></li>
-                    <li><a class="you" href="#"></a></li>
+                    <li><a class="you" href="#"></a></li> --}}
                 </ul>
             </div>
             <div class="clearfix"></div>
@@ -226,28 +247,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
             </nav>
             <div class="top_nav_left"></div>
-            <!-- <div class="top_nav_right">
-          <div class="cart box_1">
-            <a href="checkout.html">
-              <h3>
-                <div class="total">
-                  <i
-                    class="glyphicon glyphicon-shopping-cart"
-                    aria-hidden="true"
-                  ></i>
-                  <span class="simpleCart_total"></span> (<span
-                    id="simpleCart_quantity"
-                    class="simpleCart_quantity"
-                  ></span>
-                  items)
+            {{-- <div class="top_nav_right">
+                <div class="cart box_1">
+                    <a href="checkout.html">
+                        <h3>
+                            <div class="total">
+                                <i class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></i>
+                                <span class="simpleCart_total"></span> (<span id="simpleCart_quantity"
+                                    class="simpleCart_quantity"></span>
+                                items)
+                            </div>
+                        </h3>
+                    </a>
+                    <p>
+                        <a href="javascript:;" class="simpleCart_empty">Empty Cart</a>
+                    </p>
                 </div>
-              </h3>
-            </a>
-            <p>
-              <a href="javascript:;" class="simpleCart_empty">Empty Cart</a>
-            </p>
-          </div>
-        </div> -->
+            </div> --}}
             <div class="clearfix"></div>
         </div>
     </div>
